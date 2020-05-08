@@ -1,5 +1,7 @@
 <h1 align="center">디스코드 자바스크립트 튜토리얼에 오신 것을 환영합니다!</h1>
 
+<iframe src="https://discordapp.com/widget?id=620871538920521728&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0"></iframe>
+
 ## 튜토리얼 제작자
 
 **제스퍼 ʅʕ´•ﻌ•`ʔʃ#0001 [GitHub](https://github.com/Ukong0324)**
@@ -21,4 +23,9 @@ DM이나 저를 맨션하는 것보다는
 초보분들이 쉽게 접근하실 수 있게 이미지들을 포함하여 올릴 예정입니다.
 ```
 
-## 해당 프로젝트에 ⭐️을 눌러주신다면 저에게 큰 도움이 됩니다!
+## 해당 프로젝트에 ⭐️을 눌러주신다면 저에게 큰 도움이 됩니다!   
+[서포트 채널](https://discord.gg/WVKSnJr)
+
+
+
+
