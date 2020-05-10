@@ -38,7 +38,7 @@ client.on("message", msg => {
      * 주석으로 설명하는 라인을 잘 확인하시고 403 (permissions denial) 안뜨게 봇의 권한을 잘 사용해주세요.
     */
 
-    if (msg.content === `${prefix}추방`) {
+    if (msg.content === `${prefix}추방`) { // 만약에 메세지 내용이 추방이라면 ?
         var user = msg.mentions.users.first(); // var로 user를 선언을 해줍시다. (맨션을 먼저 언급을 해주라 라는 의미에용, 맨션을 안하면 undefined가 뜹니다)
         if (!user) { // 그래서 만약에 user가 안된다면
             msg.reply("추방하시기 전에 맨션을 먼저 해주세요!") // 맨션을 먼저 해달라고 문구를 전송해줍시다!
@@ -54,7 +54,7 @@ client.on("message", msg => {
         }
     }
 
-    if (msg.content === `${prefix}차단`) {
+    if (msg.content === `${prefix}차단`) { // 만약에 메세지 내용이 차단이라면?
         var user = msg.mentions.users.first(); // var로 user를 선언을 해줍시다. (맨션을 먼저 언급을 해주라 라는 의미에용, 맨션을 안하면 undefined가 뜹니다)
         if (!user) { // 그래서 만약에 user가 안된다면
             msg.reply("차단하시기 전에 맨션을 먼저 해주세요!") // 맨션을 먼저 해달라고 문구를 전송해줍시다!

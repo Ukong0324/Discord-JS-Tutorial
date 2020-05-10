@@ -23,3 +23,8 @@ DM이나 저를 맨션하는 것보다는
 
 ## 해당 프로젝트에 ⭐️을 눌러주신다면 저에게 큰 도움이 됩니다!   
 [서포트 채널](https://discord.gg/WVKSnJr)
+
+
+## 프로젝트에 도움을 주신분들
+
+[sannoob](https://github.com/sannoob)
