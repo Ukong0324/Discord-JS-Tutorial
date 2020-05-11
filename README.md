@@ -26,7 +26,7 @@ DM이나 저를 맨션하는 것보다는
 
 ## 해당 프로젝트에 ⭐️을 눌러주신다면 저에게 큰 도움이 됩니다!   
 **혹시나 튜토리얼을 같이 제작하고 싶으신 분들은 저에게 따로 디스코드 DM(PM)을 주시면 영광입니다!**   
-[서포트 채널](https://discord.gg/WVKSnJr)   
+[[서포트 채널]](https://discord.gg/WVKSnJr) | [[StayCute]](https://discord.gg/2UxaNp8)
 
 ## 프로젝트에 도움을 주신분들
 
