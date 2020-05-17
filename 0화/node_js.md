@@ -14,8 +14,6 @@
 
 ![image](https://cdn.discordapp.com/attachments/708325535133990963/711348054627713135/unknown.png)
 
-4. 아래의 이미지가 나올때까지 next 버튼을 눌러주세요.   
-
-![image](https://cdn.discordapp.com/attachments/708325535133990963/711348222815109211/unknown.png)
+4. 계속 next 누르시고 설치하시면 됩니다!   
 
 5. 그러고 설치를 다 하시고 finish 버튼을 누르면 끝!
