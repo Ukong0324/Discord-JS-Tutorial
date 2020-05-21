@@ -20,7 +20,7 @@
 
 #### 4. 그러면 이제 URL를 확인해봅시다.
 
-일딴 제가 만든 웹훅의 URL은 아래와 같아요!   
+일단 제가 만든 웹훅의 URL은 아래와 같아요!   
 **https://discordapp.com/api/webhooks/709006707640107029/piBftlF4QTdTfZdvs6vUJGRZBtdv-GrfAC-fFNBVfncXAfFhkyyHh_xr14cBkiEhRi7j**   
 
 웹훅의 아이디: 709006707640107029   
