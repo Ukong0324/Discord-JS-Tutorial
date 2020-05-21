@@ -22,7 +22,7 @@ fs.readdirSync("./Commands/").forEach(dir => { // fs 모듈을 이용하여 ./Co
 
 function runCommand(command, message, args, prefix) { // 명령어를 실행할 때 쓸 함수입니다!
     if (client.commands.get(command) || client.aliases.get(command)) { // 만약에 command가 있는가 이후 true
-        const cmd = client.commands.get(command) || client.commands.get(client.aliases.get(command)) // cmd를 따로 선언합시다 (해당 명령어를 ger하여 불러오고)
+        const cmd = client.commands.get(command) || client.commands.get(client.aliases.get(command)) // cmd를 따로 선언합시다 (해당 명령어를 get하여 불러오고)
         if (cmd) cmd.run(client, message, args, prefix); return // 만약에 cmd가 있다면 그 커멘드를 실행시켜줍니다.
     }
 }
