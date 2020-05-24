@@ -26,13 +26,16 @@ function runCommand(command, message, args, prefix) { // 명령어를 실행할 
         if (cmd) cmd.run(client, message, args, prefix); return // 만약에 cmd가 있다면 그 커멘드를 실행시켜줍니다.
     }
 }
-client.on("message", msg => {
+client.on("message", async msg => {
     const prefix = "튜토야 " // 접두사(prefix)를 저는 튜토야 라고 선정하였습니다!
     if(!msg.content.startsWith(prefix)) return // 만약에 메세지 내용이 접두사로 시작하지 않으면 return
     let args = msg.content.slice(prefix.length).trim().split(/ +/g) // argument
     let command = args.shift().toLowerCase() // 커멘드에 대한 이름을 선언
-    
-    runCommand(command, msg, args, prefix).catch(e => console.error(e)) // 위에서 함수로 선언한 것을 command, msg(message), args(argument), prefix를 불러와 명령어를 실행
+    try { // 아래의 명령어를 시도합니다.
+    runCommand(command, msg, args, prefix) // 위에서 함수로 선언한 것을 command, msg(message), args(argument), prefix를 불러와 명령어를 실행
+    } catch (e) {
+       console.error(e) // 명령어를 실행하는 도중 에러가 발생하였다고 알려줍시다.
+    }
 })
 
 client.login(config.token) // config에 token 부분을 불러오게 합시다.
