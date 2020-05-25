@@ -1,7 +1,7 @@
 ### 잠시 튜토리얼을 보시기 전 읽어주세요.
 
 이번 4화는 **웹에 있는 json을 불러와 사용하는 방법**에 대한 튜토리얼을 적었습니다.   
-이번에 필요한 모듈은 [**node-fetch**](https://www.npmjs.com/package/node-fetch) 모듈이 필요하며   
+이번에 필요한 모듈은 [**node-fetch**](https://www.npmjs.com/package/node-fetch), [**Moment-Timezone**](https://www.npmjs.com/package/moment-timezone) 모듈이 필요하며   
 이전과 **동일한 방법으로 모듈을 설치**해주시면 됩니다.   
 
 3화에서 많은 이슈들을 나오게 해드렸는데    
