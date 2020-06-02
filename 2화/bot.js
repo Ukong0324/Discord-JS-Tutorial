@@ -83,3 +83,43 @@ client.on("message", msg => {
 });
 
 client.login("토큰")
+
+/**	
+ * 그리고 제가 1화에서 설명하지 못한 부분이 있었어요 ㅠㅠ	
+ * 현재 디스코드 API에서 버그가 있는거 같은지는 모르겠지만 제 소스는 맞는데 코드가 정상적으로 돌아가지가 않더라고요!	
+ * 그런 부분은 제쪽의 잘못이 아니라 디코에서의 문제라 시간을 좀 둬야할꺼 같아요!... 	
+ * 그리고 저희가 하고 있는 것은 Discord.JS라는 것을 사용하여 코딩을 진행하였는데, 도큐를 제가 따로 안알려드렸더라고요!	
+ * 그래서 제가 아레에 링크 2개를 적어놓을테니 확인해주세요!	
+ * 영문판 (공식): https://discord.js.org/ 	
+ * 한글판(번역중, 비공식): https://discord-kr.js.org/	
+ */	
+
+/**	
+ * Discord MessageEmbed Color List	
+   * - `DEFAULT`	
+   * - `WHITE`	
+   * - `AQUA`	
+   * - `GREEN`	
+   * - `BLUE`	
+   * - `YELLOW`	
+   * - `PURPLE`	
+   * - `LUMINOUS_VIVID_PINK`	
+   * - `GOLD`	
+   * - `ORANGE`	
+   * - `RED`	
+   * - `GREY`	
+   * - `DARKER_GREY`	
+   * - `NAVY`	
+   * - `DARK_AQUA`	
+   * - `DARK_GREEN`	
+   * - `DARK_BLUE`	
+   * - `DARK_PURPLE`	
+   * - `DARK_VIVID_PINK`	
+   * - `DARK_GOLD`	
+   * - `DARK_ORANGE`	
+   * - `DARK_RED`	
+   * - `DARK_GREY`	
+   * - `LIGHT_GREY`	
+   * - `DARK_NAVY`	
+   * - `RANDOM`	
+ */
