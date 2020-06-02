@@ -8,8 +8,8 @@ client.on("ready", () => {
 client.on("message", msg => {
     if (!msg.guild) return; // 만약에 길드 이외 다른곳이라면 return을 사용을 해줍시다.
     if (msg.author.bot) return; // 여기도 마찬가지로 만약에 메세지 사용자가 봇이라면 return을 사용합시다.
-    if (message.content.indexOf(prefix) !== 0) return; //메세지가 prefix로 시작되지 않을시 return을 사용을 해줍시다
-    var args = message.content.slice(prefix.length).trim().split(/ +/g); // argument(args)
+    if (msg.content.indexOf(prefix) !== 0) return; //메세지가 prefix로 시작되지 않을시 return을 사용을 해줍시다
+    var args = msg.content.slice(prefix.length).trim().split(/ +/g); // argument(args)
     var command = args.shift().toLowerCase(); //명령어를 가져올꺼에요 args의 어레이중 가장 앞부분을 가져옵니다 toLowerCase()는 대문자를 소문자로 변경시켜줍니다. Kick같은 실수를 방지할수 있죠
     if (command === `핑`) { // 이전에 핑을 퐁으로 답변했다면 웹소켓 지연시간을 알려주는 코드로 해봅시다!
         msg.reply(`${client.ws.ping}ms`); // CLIENT에 WS(WEBSOCKET)이라는 곳에서 PING을 구해오는 값입니다.
