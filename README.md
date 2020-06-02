@@ -42,4 +42,4 @@ A: **모듈을 활용하는 방법, 기초적인 크롤링, 데이터베이스 �
 
 ## 프로젝트에 도움을 주신분들
 
-[sannoob](https://github.com/sannoob) | [SaidBySolo](https://github.com/SaidBySolo)
+[sannoob](https://github.com/sannoob) | [SaidBySolo](https://github.com/SaidBySolo) | [vendetta-team](https://github.com/vendetta-team)
