@@ -14,7 +14,7 @@ client.on("message", msg => {
     if (command === `핑`) { // 이전에 핑을 퐁으로 답변했다면 웹소켓 지연시간을 알려주는 코드로 해봅시다!
         msg.reply(`${client.ws.ping}ms`); // CLIENT에 WS(WEBSOCKET)이라는 곳에서 PING을 구해오는 값입니다.
     }
-    if (command === `${prefix}임베드`) {
+    if (command === `임베드`) {
         var embed = new Discord.MessageEmbed()
             .setTitle("여기는 대표 타이틀!") // 여기는 임베드에서 타이틀로 사용됩니다!
             .setDescription("여기는 대표 설명!") // 여기는 타이틀을 설명해주는 걸로 사용됩니다!
@@ -40,7 +40,7 @@ client.on("message", msg => {
      * 주석으로 설명하는 라인을 잘 확인하시고 403 (permissions denial) 안뜨게 봇의 권한을 잘 사용해주세요.
     */
 
-    if (command === `${prefix}추방`) { // 만약에 메세지 내용이 추방이라면 ?
+    if (command === `추방`) { // 만약에 메세지 내용이 추방이라면 ?
         var user = msg.mentions.users.first(); // var로 user를 선언을 해줍시다. (맨션을 먼저 언급을 해주라 라는 의미에용, 맨션을 안하면 undefined가 뜹니다)
         if (!user) { // 그래서 만약에 user가 안된다면
             msg.reply("추방하시기 전에 맨션을 먼저 해주세요!") // 맨션을 먼저 해달라고 문구를 전송해줍시다!
@@ -56,7 +56,7 @@ client.on("message", msg => {
         }
     }
 
-    if (command === `${prefix}차단`) { // 만약에 메세지 내용이 차단이라면?
+    if (command === `차단`) { // 만약에 메세지 내용이 차단이라면?
         var user = msg.mentions.users.first(); // var로 user를 선언을 해줍시다. (맨션을 먼저 언급을 해주라 라는 의미에용, 맨션을 안하면 undefined가 뜹니다)
         if (!user) { // 그래서 만약에 user가 안된다면
             msg.reply("차단하시기 전에 맨션을 먼저 해주세요!") // 맨션을 먼저 해달라고 문구를 전송해줍시다!
@@ -72,7 +72,7 @@ client.on("message", msg => {
         }
     }
 
-    if (command === `${prefix}청소`) { // 만약에 메세지 내용이 청소라면?
+    if (command === `청소`) { // 만약에 메세지 내용이 청소라면?
         if (!args[0]) return msg.reply("청소할 만큼의 값을 정수로 적어주세요!") // 만약에 argument가 비어있다면? 값을 적어달라고 메세지를 답변해줍시다.
         if (!Number(args[0])) return msg.reply("메세지를 지울 값이 숫자가 아니면 안되요!") // 만약에 argument가 숫자가 아니라면 숫자로 적어달라고 답변해줍시다.
         if (args[0] < 1) return msg.reply("메세지를 지울 값을 1보다 작게 하시면 안되요!") // 만약에 argument가 1보다 작으면 그렇게 못한다고 답변해줍시다.
