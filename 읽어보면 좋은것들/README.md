@@ -7,6 +7,10 @@
 ## 자바스크립트 개발자라면 알아야 할 33가지의 개념 (번역본)
 [33concepts-of-javascript](https://velog.io/@jakeseo_me/series/33conceptsofjavascript)
 
+## 클린한 코드
+
+[[번역판] CLEAN CODE JAVASCRIPT](https://edu.goorm.io/learn/lecture/20119/%EB%B2%88%EC%97%AD%ED%8C%90-clean-code-javascript)
+
 ## 문제 검색
 [Stackoverflow](https://stackoverflow.com)
 
