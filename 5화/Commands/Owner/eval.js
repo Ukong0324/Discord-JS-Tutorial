@@ -18,7 +18,7 @@ exports.run = async (client, msg, args, prefix) => {
             .addField("📤 **Output**", `\`\`\`js\n${code}\`\`\``, false)
         msg.reply(evaled)
         /**
-         * 이제 튜토야 도움 msg를 실행 시켜주면 아래와 같은 결과 값이 나와요!
+         * 이제 튜토야 이블 msg를 실행 시켜주면 아래와 같은 결과 값이 나와요!
          * Message {
             channel: [TextChannel],
             deleted: false,
