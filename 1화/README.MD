@@ -49,7 +49,7 @@
 2. 거기서 이제 여러가지 머 적으라고 할텐데 양식에 맞게 적어주세요!   
 3. 그러면 아래의 사진처럼 되어있을텐데 거기서 엔터를 눌러서 마무리 해주세요!   
 
-![image](https://cdn.discordapp.com/attachments/708325535133990963/719143887955951616/unknown.png)
+![image](https://cdn.discordapp.com/attachments/708325535133990963/719143887955951616/unknown.png)   
 우리는 그러면 Discord.js 라는 모듈을 정상적으로 설치한 것을 알 수 있습니다!   
 나머지는 봇 파일에서 뵙도록 합시다!
 
