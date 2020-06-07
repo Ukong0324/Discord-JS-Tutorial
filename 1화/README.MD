@@ -1,6 +1,6 @@
 ## 먼저 [여기](https://discord.com/developers/applications)를 클릭하여 웹사이트에 들어가주세요.
 
-![들어가시면 아래의 사진처럼 보이실겁니다.](https://cdn.discordapp.com/attachments/708325535133990963/708326005852471336/unknown.png)
+![들어가시면 아래의 사진처럼 보이실겁니다.](https://cdn.discordapp.com/attachments/708325535133990963/719143421083779092/unknown.png)
 
 여기서 오른쪽 위에 보시면 New Application을 클릭해주세요.
 
@@ -41,6 +41,15 @@
 4. 그러고 설치가 다 완료되었으면 아래의 사진처럼 되었을겁니다!   
 ![image](https://cdn.discordapp.com/attachments/708325535133990963/711371987900956713/unknown.png)
 
+
+
+### node package 생성하는 방법
+
+1. 위에서 작업했던 cmd 창을에서 **npm init**를 해주세요.   
+2. 거기서 이제 여러가지 머 적으라고 할텐데 양식에 맞게 적어주세요!   
+3. 그러면 아래의 사진처럼 되어있을텐데 거기서 엔터를 눌러서 마무리 해주세요!   
+
+![image](https://cdn.discordapp.com/attachments/708325535133990963/719143887955951616/unknown.png)
 우리는 그러면 Discord.js 라는 모듈을 정상적으로 설치한 것을 알 수 있습니다!   
 나머지는 봇 파일에서 뵙도록 합시다!
 
