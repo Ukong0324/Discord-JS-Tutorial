@@ -11,6 +11,12 @@
 
 [[번역판] CLEAN CODE JAVASCRIPT](https://edu.goorm.io/learn/lecture/20119/%EB%B2%88%EC%97%AD%ED%8C%90-clean-code-javascript)
 
+## 노드 사용에 좋은 습관들
+- [원문](https://github.com/goldbergyoni/nodebestpractices/blob/master/README.md)
+- [부분 번역판](https://github.com/goldbergyoni/nodebestpractices/blob/master/README.korean.md)
+
+대부분 사이트 쪽과 관련된 내용을 담고 있으나 필요한 부분만 참고하시면 좋습니다
+
 ## 문제 검색
 [Stackoverflow](https://stackoverflow.com)
 
