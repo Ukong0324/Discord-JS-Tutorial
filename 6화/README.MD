@@ -11,15 +11,15 @@
 
 ### 추가 된 부분
 
-./Commands/database (folder)
-    ㄴ settings.js
-    ㄴ registerGuild.js
-    ㄴ gamble.js
-    ㄴ money.js
-
-./json (folder)
-    ㄴ server.json
-    ㄴ user.json
+./Commands/database (folder)   
+    ㄴ settings.js   
+    ㄴ registerGuild.js   
+    ㄴ gamble.js   
+    ㄴ money.js   
+   
+./json (folder)   
+    ㄴ server.json   
+    ㄴ user.json   
 
 ### 수정 된 부분
 
