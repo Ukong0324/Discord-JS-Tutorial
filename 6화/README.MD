@@ -9,19 +9,19 @@
 살짝 알고리즘 관련으로 진행하는거니 참고하여 잘 따라와주시길 바랍니다 :D   
 
 
-### 추가 된 부분
+### 추가 된 파일
 
 ./Commands/database (folder)   
-    ㄴ settings.js   
-    ㄴ registerGuild.js   
-    ㄴ gamble.js   
-    ㄴ money.js   
+　　ㄴ settings.js   
+　　ㄴ registerGuild.js   
+　　ㄴ gamble.js   
+　　ㄴ money.js   
    
 ./json (folder)   
-    ㄴ server.json   
-    ㄴ user.json   
+　　ㄴ server.json   
+　　ㄴ user.json   
 
-### 수정 된 부분
+### 수정 된 파일
 
 main(bot).js
 
