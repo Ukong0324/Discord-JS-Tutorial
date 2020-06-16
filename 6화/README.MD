@@ -7,3 +7,22 @@
 그래도 자세하게 설명해놨으니 꼭 주석처리 된 부분을 읽으셔서 해당 코드들을 이해해주시면 좋을꺼 같습니다!
 
 살짝 알고리즘 관련으로 진행하는거니 참고하여 잘 따라와주시길 바랍니다 :D   
+
+
+### 추가 된 부분
+
+./Commands/database (folder)
+    ㄴ settings.js
+    ㄴ registerGuild.js
+    ㄴ gamble.js
+    ㄴ money.js
+
+./json (folder)
+    ㄴ server.json
+    ㄴ user.json
+
+### 수정 된 부분
+
+main(bot).js
+
+
