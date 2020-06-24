@@ -1,8 +1,8 @@
-<h1 align="center">디스코드 자바스크립트 튜토리얼에 오신 것을 환영합니다!</h1>
-
-## 튜토리얼 제작자
+<h1 align="center">디스코드 자바스크립트 튜토리얼에 오신 것을 환영합니다!</h1>   
 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/74227fdb47374f1d81d506bf6f57a2cd)](https://app.codacy.com/manual/Ukong0324/Discord-JS-Tutorial?utm_source=github.com&utm_medium=referral&utm_content=Ukong0324/Discord-JS-Tutorial&utm_campaign=Badge_Grade_Dashboard)
+
+## 튜토리얼 제작자
 
 **Discord: 제스퍼 ʅʕ´•ﻌ•`ʔʃ#0001**   
 **Github: [UKong0324](https://github.com/Ukong0324)**   
