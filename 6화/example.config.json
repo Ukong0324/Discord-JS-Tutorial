@@ -1,3 +1,4 @@
 {
-    "token": "your bot token!"
+    "token": "your bot token!",
+    "prefix": "your bot prefix!"
 }
