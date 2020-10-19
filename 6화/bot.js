@@ -32,7 +32,7 @@ function runCommand(command, msg, args, prefix) {
     }
 }
 client.on("message", async msg => {
-    const prefix = "튜토야 "
+    const prefix = config.prefix
     if (msg.author.bot) return;
     if (!msg.content.startsWith(prefix)) return;
     let args = msg.content.slice(prefix.length).trim().split(/ +/g)
