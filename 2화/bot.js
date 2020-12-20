@@ -1,15 +1,15 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
-const prefix = "튜토야 " // 우리는 이제 접두사를 추가할꺼에요! (저는 튜토야 라고 했습니다!)
+const prefix = "튜토야 " // 우리는 이제 접두사를 추가할꺼에요! (저는 튜토야 라고 했습니다!) 접두사가 붙어야 커맨드가 실행이 될 수 있습니다!
 
 client.on("ready", () => {
     console.log(`${client.user.tag} 봇에 로그인 하였습니다!`);
 });
 client.on("message", msg => {
-    if (!msg.guild) return; // 만약에 길드 이외 다른곳이라면 return을 사용을 해줍시다.
+    if (!msg.guild) return; // 만약에 길드 이외 다른곳이라면 return을 사용을 해줍시다. 아래도 마찬가지이지만 return을 해주어 반응을 해주지 않는 반응을 해주는 것이에요!
     if (msg.author.bot) return; // 여기도 마찬가지로 만약에 메세지 사용자가 봇이라면 return을 사용합시다.
     if (msg.content.indexOf(prefix) !== 0) return; //메세지가 prefix로 시작되지 않을시 return을 사용을 해줍시다
-    var args = msg.content.slice(prefix.length).trim().split(/ +/g); // argument(args)
+    var args = msg.content.slice(prefix.length).trim().split(/ +/g); // argument(args) 이 부분은 args를 원하는 방식으로 만들기 위한 과정이라고만 아시면 됩니다!
     var command = args.shift().toLowerCase(); //명령어를 가져올꺼에요 args의 어레이중 가장 앞부분을 가져옵니다 toLowerCase()는 대문자를 소문자로 변경시켜줍니다. Kick같은 실수를 방지할수 있죠
     if (command === `핑`) { // 이전에 핑을 퐁으로 답변했다면 웹소켓 지연시간을 알려주는 코드로 해봅시다!
         msg.reply(`${client.ws.ping}ms`); // CLIENT에 WS(WEBSOCKET)이라는 곳에서 PING을 구해오는 값입니다.
@@ -18,7 +18,7 @@ client.on("message", msg => {
         var embed = new Discord.MessageEmbed()
             .setTitle("여기는 대표 타이틀!") // 여기는 임베드에서 타이틀로 사용됩니다!
             .setDescription("여기는 대표 설명!") // 여기는 타이틀을 설명해주는 걸로 사용됩니다!
-            .setColor("RED") // 여기는 색상을 설정하는 공간인데 HEX값을 넣으셔도 됩니다! (#7239DA) "red" 말고 다른것들도 있어요! 맨 밑에다가 적어놓을테니 확인해주세요!
+            .setColor("RED") // 여기는 색상을 설정하는 공간인데 HEX값을 넣으셔도 됩니다! (#7239DA) "RED" 말고 다른것들도 있어요! 맨 밑에다가 적어놓을테니 확인해주세요!
             .setFooter("여기는 말머리?") // 여기는 임베드의 밑부분에서 말머리로 사용됩니다!
             .setThumbnail("http://blogfiles.naver.net/20151023_23/shin_0305_1445573936921jrPRT_JPEG/%BD%E6%B3%D7%C0%CF%BF%B9%BD%C3.jpg") // 여기는 임베드에서 썸네일로 불려옵니다! (URL를 넣어가 경로를 기입하면 그 경로에 있는 이미지를 불러와 썸네일로 이용되요!)
             .setImage("http://blogfiles.naver.net/MjAxODA4MjNfMjQ0/MDAxNTM1MDE5ODk1Njc3.c5p_E9tLPEXGnXPAkpOuhpEOm7VLqopETMTfJ9C8CWYg.6FCsIDtjWnd19lSzmw_z1oHm9E7fd39s1RmRPeBOF3Ag.JPEG.dlawldbs20/VD-poem-20150915-01.jpg") // 여기는 임베드에서 이미지로 사용되는 곳입니다. // 위에 설명이랑 같아요
@@ -51,7 +51,7 @@ client.on("message", msg => {
                     msg.reply(`성공적으로 ${member.user.tag}님을 추방하였습니다.`) // 그리고 채팅 친 곳에서 해당 유저를 추방 당했다고 알려줍시다.
                 })
             } else { // member가 없다면
-                msg.reply("이 서버에 존재하지 않은 유저입니다!") // 서버에 없는 존재를 맨션한걸로 전송해줍시다!
+                msg.reply("이 서버에 존재하지 않은 유저입니다!") // 서버에 없는 존재를 맨션하였다고 알려줍시다!
             }
         }
     }
@@ -86,10 +86,10 @@ client.login("토큰")
 
 /**	
  * 그리고 제가 1화에서 설명하지 못한 부분이 있었어요 ㅠㅠ	
- * 그리고 저희가 하고 있는 것은 Discord.JS라는 것을 사용하여 코딩을 진행하였는데, 도큐를 제가 따로 안알려드렸더라고요!	
- * 그래서 제가 아레에 링크 2개를 적어놓을테니 확인해주세요!	
+ * 그리고 저희가 하고 있는 과정은 Discord.JS라는 라이브러리를 사용하여 코딩을 진행하였는데, 문서를 제가 따로 안알려드렸더라고요!	
+ * 그래서 제가 아래에 링크 2개를 적어놓을테니 확인해주세요!	
  * 영문판 (공식): https://discord.js.org/ 	
- * 한글판(번역중, 비공식): https://discord-kr.js.org/	
+ * 한글판 (번역중, 비공식): https://discord-kr.js.org/	
  */	
 
 /**	
