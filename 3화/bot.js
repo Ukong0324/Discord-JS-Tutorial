@@ -9,7 +9,7 @@ client.commands = new Discord.Collection() // commands를 discord.collection을 
 client.aliases = new Discord.Collection()// aliases를 discord.collection을 사용하였습니다.
 
 fs.readdirSync("./Commands/").forEach(dir => { // fs 모듈을 이용하여 ./Commands/ 폴더 안에 내용을 불러와 forEach를 합니다 이후에 선언되는 것은 dir로 합시다.
-    const Filter = fs.readdirSync(`./Commands/${dir}`).filter(f => f.endsWith(".js")); // Fillter를 선언하여 Commands/여러 폴더들을 안에 .js로 끝나는 것들로 필터링 합시다.
+    const Filter = fs.readdirSync(`./Commands/${dir}`).filter(f => f.endsWith(".js")); // Filter를 선언하여 Commands/여러 폴더들을 안에 .js로 끝나는 것들로 필터링 합시다.
     Filter.forEach(file => {  // 안에 .js 파일들을 forEach하여 이후에 선언되는 것은 file로 합시다
         const cmd = require(`./Commands/${dir}/${file}`); // cmd를 선언하여 ./Commands/${dir}/${file}가 필요하다고 합시다
         client.commands.set(cmd.config.name, cmd) // 우리가 콜랙션으로 지정한 것들을 지정해줍시다 (안에 괄호는 그 안에 있는 config에 name을 지정하고 명령어에 이름을 저장합니다.)
