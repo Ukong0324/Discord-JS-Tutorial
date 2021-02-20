@@ -4,13 +4,14 @@
 
 ![image](https://cdn.discordapp.com/attachments/708325535133990963/711347014419611709/unknown.png)
 
-2. 여기서 12.16.3 LTS 버전을 클릭하여 다운 받아주세요.   
+2. 여기서 12.16.3 LTS 버전을 클릭하여 다운 받아주세요.
+> **LTS버전**은 장기적으로 node.js 팀에서 지원해주는 버전이기에 사용합니다.
 
 ![image](https://cdn.discordapp.com/attachments/708325535133990963/711347272335491263/unknown.png)
 
-*혹시나 윈도우 이외에 다른 버전을 사용하신다면 아래에 Other Downloads를 눌러서 맞는 버전을 다운받아주세요.*
+*혹시나 윈도우 이외에 다른 운영체제를 사용하신다면 아래에 Other Downloads를 눌러서 자신에게 맞는 운영체제를 다운받아주세요.*
 
-3. 다운을 다 하셨다면 실행 해주세요.   
+3. 다운을 다 하셨다면 실행 해주세요.
 
 ![image](https://cdn.discordapp.com/attachments/708325535133990963/711348054627713135/unknown.png)
 
